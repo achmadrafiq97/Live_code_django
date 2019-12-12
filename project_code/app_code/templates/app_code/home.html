@@ -1,0 +1,39 @@
+{% extends 'app_code/base.html' %}
+    {% block content %}
+        <div class="container">
+            <div class="row">
+                {% for home in homes%}
+                <div class="col-md-4">
+                    <div>
+                        <img src="{{home.gambar_col1}}">
+                    </div>
+                    <div class="border-catalog">
+                        <h5>{{home.nama_barang_col1}}</h5>
+                        <p>{{home.harga_barang_col1}}</p>
+                        <p> <a href="#" >Lihat Details</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <img src="{{home.gambar_col2}}">
+                    </div>
+                    <div class="border-catalog">
+                        <h5>{{home.nama_barang_col2}}</h5>
+                        <p>{{home.harga_barang_col2}}</p>
+                        <p><a href="#" >Lihat Details</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <img src="{{home.gambar_col3}}">
+                    </div>
+                    <div class="border-catalog">
+                        <h5>{{home.nama_barang_col3}}</h5>
+                        <p>{{home.harga_barang_col3}}</p>
+                        <p><a href="#" >Lihat Details</a></p>
+                    </div>
+                </div>
+                {% endfor %}
+                </div>
+            </div>
+    {% endblock %}

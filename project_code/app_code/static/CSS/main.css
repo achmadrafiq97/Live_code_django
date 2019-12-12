@@ -1,0 +1,23 @@
+.background-header-toko {
+    background-color: #237559;
+    height:50px;
+    margin-bottom: 40px;
+}
+
+.background-header-home {
+    background-color: #4abab8;
+    margin-bottom: 40px;
+    height:50px;
+}
+
+.font-home {
+    margin-top:15px;
+    font-size:15px;
+    color:white;
+}
+
+.font-toko {
+    margin-top:15px;
+    font-size:15px;
+    color:white;
+}
